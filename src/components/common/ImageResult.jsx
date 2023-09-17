@@ -6,7 +6,8 @@ const URL = import.meta.env.VITE_API_URL;
 
 // ObjectIds is a prop for this component 
 // Request made per object 
-const ImageResult = ({objectIDs}) => {
+// Add Link to this page to navigate to another 
+const ImageResult = ({objectIDs, URL}) => {
     const [images, setImages] = useState([]);
     const [loading, setLoading] = useState(true);
 
@@ -35,6 +36,7 @@ const ImageResult = ({objectIDs}) => {
                       <li key={objectID}>
                         <p> Image </p>
                         <img
+                        // src = URL
                           src={`https://images.metmuseum.org/CRDImages/as/original/DP251139.jpg`}
                           alt={`Object ${objectID}`}
                         />
