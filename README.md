@@ -6,6 +6,8 @@ Stretch Goals: We integrated an external package such as React Bootstrap.
 
 Museum Mate's Staff
 
+[URL](https://strong-scone-f8ce93.netlify.app/)
+
 Davon Bridgett 
 Keith Camacho
 Kanique Cox 
