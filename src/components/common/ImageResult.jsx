@@ -24,21 +24,6 @@ const ImageResult = ({objectID,URL}) => {
     // }, []);
 
     return (
-<<<<<<< HEAD
-        <div className='ImageResult'>
-             {loading ? (
-                <div>Loading...</div>
-              ) : (
-                <div>
-                  <h1>Image Result</h1>
-                  <ul className='ImageResult--ul'>
-                    {images.map(objectID => (
-                      <li key={objectID}>
-                        <p> Image </p>
-                        <img
-                        // src = URL
-                          src={`https://images.metmuseum.org/CRDImages/as/original/DP251139.jpg`}
-=======
         // <div className='ImageResult'>
         //      //{loading ? (
         //         <div>Loading...</div>
@@ -51,7 +36,6 @@ const ImageResult = ({objectID,URL}) => {
                          <p> Image </p>
                          <img
                          src={URL}
->>>>>>> main
                           alt={`Object ${objectID}`}
                         />
                       </li>
